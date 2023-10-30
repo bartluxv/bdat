@@ -1,0 +1,9 @@
+FROM centos/python-36-centos7
+USER root
+COPY . /home/
+WORKDIR /home/
+RUN ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && echo 'Asia/Shanghai' >/etc/timezone \
+&& pip3 install -r /home/requirements.txt -i https://pypi.douban.com/simple --trusted-host=pypi.douban.com \
+    && cd /home/bdat
+CMD ["python3","main.py"]
+

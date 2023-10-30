@@ -1,0 +1,8 @@
+# Created by pytest automatically.
+.idea
+.pytest_cache
+report
+bdat.iml
+*.xlsx
+DEBUG
+*.docx

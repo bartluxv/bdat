@@ -1,0 +1,4 @@
+exchange,name,hive_db,hive_ads,hive_filter,sr_db,sr_ads,sr_filter,start_date,offset
+vbroker,ads_app_real_personal_rank_df1,ads,ads_app_real_personal_rank_df,,hk_uat_ads,ads_app_real_personal_rank_df,,2023-08-29,0
+vbroker,ads_app_real_personal_rank_df2,ads,ads_app_real_personal_rank_df,,hk_uat_ads,ads_app_real_personal_rank_df,,2023-08-29,0
+vbroker,ads_app_real_personal_rank_df3,ads,ads_app_real_personal_rank_df,,hk_uat_ads,ads_app_real_personal_rank_df,,2023-08-29,0

@@ -1,0 +1,8 @@
+init_date,trade_date,clear_date,market,stock_type,money_type,account_status,client_type,entrust_bs,broker,gross_amount,accrued_interest,fare0,fare1,fare2,fare3,fare4,fare5,fare6,fare7,fare8,fare9,farex,farey,net_amount,source_table
+2023-06-02,20230601,20230602,P,stock,USD,1,M,B,IB,33350.53,0,5.96,0.0,10.28,0,0.0,0,9.14,0,0,0,12.09,0,33388.0,trade_success_detail
+2023-06-02,20230601,20230602,P,stock,USD,1,M,S,IB,110.0,0,3.0,4.0,4.0,0,0.0,0,3.0,0,0,0,4.0,0,92.0,trade_success_detail
+2023-06-02,20230601,20230602,P,stock,USD,1,M,B,IB,120.0,0,15.03,0.0,0.0,0,0.0,0,2.0,0,0,0,0.31,0,137.34,trade_success_detail
+2023-06-02,20230601,20230602,P,stock,USD,1,M,S,IB,97.0,0,15.03,0.02,0.02,0,0.0,0,4.0,0,0,0,0.07,0,77.86000000000001,trade_success_detail
+2023-06-02,20230601,20230602,SA,stock,SAR,1,Comp,B,TDWUL,20.0,0,1.0,1.0,1.0,2,0.01,1,0.0,0,0,0,0.24000000000000002,0,26.25,trade_success_detail
+2023-06-02,20230602,20230605,SA,stock,SAR,1,Comp,B,TDWUL,19012.75,0,188.73000000000002,1197.9,145.63,47,66.68,77,0.0,0,0,0,136.85000000000002,0,20872.54,trade_success_detail
+2023-06-02,20230602,20230605,SA,stock,SAR,1,Comp,S,TDWUL,4499.8,0,47.0,52.0,37.0,24,28.8,28,0.0,0,0,0,7.62,0,4275.38,trade_success_detail

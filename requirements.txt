@@ -1,0 +1,16 @@
+cx_Oracle
+pandas
+xmindparser
+pytest
+Flask
+requests
+PyMySQL
+sqlalchemy
+allure-pytest
+pytest-html
+configparser
+thrift
+pyhive
+pyspark
+PyYaml
+xmind

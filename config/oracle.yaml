@@ -1,0 +1,47 @@
+oracle_port: &ora_port 1521
+tickrs:
+  feature :
+    hsuat:
+      host: "oracle-sgp-bss-feature.hszq8.com"
+      port: *ora_port
+      database: "hkhszq"
+      username: "ksa_dbzu"
+      password: "ksa_dbzu"
+sham:
+  uat:
+    hsuat: # 库名
+      hsot: "global-ksa-bss-uat.c1vrsipnefux.ap-east-1.rds.amazonaws.com"
+      port: *ora_port
+      database: "hkhszq"
+      username: "KSA_DBZU"
+      password: "KSA_DBZU"
+  feature:
+    hsuat:
+      hsot: "global-ksa-bss-uat.c1vrsipnefux.ap-east-1.rds.amazonaws.com"
+      port: *ora_port
+      database: "hkhszq"
+      username: "KSA_DBZU"
+      password: "KSA_DBZU"
+mas:
+  feature:
+    hsuat:
+      host: "oracle-mas-bss-feature.hszq8.com"
+      port: *ora_port
+      database: "hkhszq"
+      username: "ksa_dbzu"
+      password: "ksa_dbzu"
+broker:
+  feature:
+    hsuat:
+      host: "oracle-global-hk-bss-feature.hszq8.com"
+      port: *ora_port
+      database: "hkhszq"
+      username: "ksa_dbzu"
+      password: "ksa_dbzu"
+  uat:
+    hsuat:
+      host: "oracle-global-hk-bss-uat.hszq8.com"
+      port: *ora_port
+      database: "hkhszq"
+      username: "ksa_dbzu"
+      password: "ksa_dbzu"
